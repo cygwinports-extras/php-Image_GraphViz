@@ -1,0 +1,61 @@
+php-Image_GraphViz
+------------------------------------------
+The PHP GraphViz class allows for the creation of and the work with 
+directed and undirected graphs and their visualization with AT&T's 
+GraphViz tools.
+
+Runtime requirements:
+  graphviz
+  php-5.2.5-1
+  php-pear-5.2.5-1
+
+Canonical website:
+  http://pear.php.net/package/Image_GraphViz/
+
+Canonical download:
+  http://pear.php.net/get/Image_GraphViz
+
+-------------------------------------------
+
+Build instructions:
+  unpack php-Image_GraphViz-1.3.0RC3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./php-Image_GraphViz-1.3.0RC3-X.cygport all
+
+This will create:
+  /usr/src/php-Image_GraphViz-1.3.0RC3-X-src.tar.bz2
+  /usr/src/php-Image_GraphViz-1.3.0RC3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/pear/.registry/image_graphviz.reg
+  /usr/share/pear/Image/GraphViz.php
+  /usr/share/pear/test/Image_GraphViz/tests/req_12913.phpt
+  /usr/share/pear/test/Image_GraphViz/tests/test1.phpt
+  /usr/share/pear/test/Image_GraphViz/tests/test12.phpt
+  /usr/share/pear/test/Image_GraphViz/tests/test14.phpt
+  /usr/share/pear/test/Image_GraphViz/tests/test16.phpt
+  /usr/share/pear/test/Image_GraphViz/tests/test17.phpt
+  /usr/share/pear/test/Image_GraphViz/tests/test19.phpt
+  /usr/share/pear/test/Image_GraphViz/tests/test2.phpt
+  /usr/share/pear/test/Image_GraphViz/tests/test20.phpt
+  /usr/share/pear/test/Image_GraphViz/tests/test3.phpt
+  /usr/share/pear/test/Image_GraphViz/tests/test4.phpt
+  /usr/share/pear/test/Image_GraphViz/tests/test5.phpt
+  /usr/share/pear/test/Image_GraphViz/tests/test6.phpt
+  /usr/share/pear/test/Image_GraphViz/tests/test9.phpt
+
+------------------
+
+Port Notes:
+
+----- version 1.3.0RC3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
